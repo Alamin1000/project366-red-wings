@@ -1,7 +1,151 @@
 
 
 @media (max-width: 1399px) {
- 
+    .header-logo {
+        width: 130px;
+    }
+    .header-right-menu-item {
+        font-size: 16px;
+    }
+    .header-section {
+        padding: 14px 0;
+    }
+    .hero__content .h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .hero__content p {
+        font-size: 17.5px;
+    }
+    .hero-image {
+        width: 70%;
+        margin-left: 0;
+    }
+    .hero-section {
+        padding: 90px 0 10px;
+    }
+
+    .h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .clients-section {
+        padding: 50px 0;
+    }
+    .client-single {
+        height: 70px;
+    }
+
+    .sol-section {
+        padding: 65px 0 45px;
+    }
+    .sol-section__title {
+        padding-bottom: 10px;
+    }
+    .sol-option .image {
+        height: 90px;
+        width: 90px;
+        margin-bottom: 25px;
+    }
+    .sol-option .content h4 {
+        font-size: 24px;
+        margin-bottom: 4px;
+    }
+    .sol-option .content p {
+        font-size: 16px;
+    }
+    .sol-options {
+        padding-left: 140px;
+    }
+
+    .stp-image {
+        height: 300px;
+    }
+    .stp__content p {
+        font-size: 15px;
+    }
+    p {
+        margin-bottom: 20px;
+    }
+    .stp-ovc-list-item {
+        min-height: 58px;
+        padding: 5px 12px;
+        font-size: 19px;
+        border-radius: 9px;
+    }
+    .stp-ovc-list {
+        width: 273px;
+        gap: 12px;
+    }
+    .stp-row {
+        --bs-gutter-x: 20px;
+        margin-bottom: 160px;
+    }
+    .stp-image--fiac .stp-ovc {
+        right: 57px !important;
+    }
+    .stp-image--ddgp .img-green {
+        width: 115px;
+        bottom: -75px;
+        left: 76px;
+    }
+    .stp-section {
+        padding: 50px 0 120px;
+    }
+
+    .gr-left-img {
+        width: 150px;
+    }
+    .gr-right-img {
+        width: 210px;
+        bottom: -26px;
+    }
+    .gr-section {
+        padding: 75px 0;
+        min-height: 450px;
+    }
+    .gr__content p {
+        font-size: 15px;
+    }
+
+    .footer-logo {
+        width: 190px;
+        display: block;
+    }
+    .footer-top {
+        padding: 15px 0 20px;
+    }
+    .footer-logo {
+        margin-bottom: 12px;
+    }
+    .copy-right {
+        font-size: 13px;
+    }
+    .fb-menu li a {
+        font-size: 13px;
+    }
+    .footer-bottom {
+        padding: 20px 0 23px;
+    }
+
+
+    #mc_embed_signup .mc-field-group input {
+        min-height: 62px;
+        padding: 7px 14px !important;
+        font-size: 15px;
+        border-radius: 15px;
+    }
+    #mc_embed_signup .button {
+        min-width: 117px !important;
+        font-size: 14px !important;
+        font-weight: 500 !important;
+        min-height: 48px !important;
+        border-radius: 7px !important;;
+    }
+    .gr-form {
+        margin-top: 35px;
+        width: 440px;
+    }
 }
 
 
@@ -11,12 +155,124 @@
 
 
 @media (max-width: 991px) {
- 
+    .hero-image {
+        width: 80%;
+        max-width: 500px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .hero-image__inner {
+        width: 100%;
+    }
+
+    .client-single {
+        height: 50px;
+    }
+
+    .sol-options {
+        padding-left: 70px;
+    }
+
+    .stp-image {
+        height: auto;
+    }
+    .stp-image .img-main {
+        width: 100%;
+        margin: 0 !important;
+    }
+    .stp-image--ddgp {
+        margin-left: 0;
+    }
+    .stp-image--ddgp .img-green {
+        display: none;
+    }
 }
 
 
 @media (max-width: 768px) {
- 
+    .hero__content .h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .hero__content p {
+        font-size: 16px;
+    }
+
+    .h3 {
+        font-size: 21px;
+        margin-bottom: 17px;
+    }
+    .client-single {
+        height: 35px;
+    }
+
+    .sol-options {
+        padding-left: 0;
+    }
+
+    .sol-options {
+        max-width: 180px;
+        margin: 0 auto;
+    }
+    .sol-option {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .sec-title {
+        margin-bottom: 25px;
+    }
+    .stp-ovc-list-item {
+        min-height: 48px;
+        padding: 4px 10px;
+        font-size: 16px;
+        border-radius: 6px;
+    }
+    .stp-ovc-list {
+        width: 233px;
+        gap: 10px;
+    }
+    .stp-ovc-risks p {
+        margin-bottom: 14px;
+        font-size: 14px;
+    }
+    .risk-pill {
+        min-width: 50px;
+        font-size: 12px;
+        border-radius: 20px;
+    }
+    .stp-ovc-risks {
+        padding: 10px 0 12px;
+        width: 158px;
+    }
+    .stp-row {
+        margin-bottom: 80px;
+    }
+    .gr-left-img,
+    .gr-right-img {
+        display: none;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+
+    #mc_embed_signup .button {
+        min-width: 87px !important;
+        border-radius: 7px !important;
+        padding: 0 14px !important;
+    }
+    #mc_embed_signup .mc-field-group input {
+        padding: 7px 7px !important;
+    }
+    .hero-form {
+        margin-top: 30px;
+    }
 }
 
 
