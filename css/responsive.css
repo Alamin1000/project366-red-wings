@@ -146,6 +146,16 @@
         margin-top: 35px;
         width: 440px;
     }
+
+
+    .default-button {
+        padding: 8px 16px;
+        min-width: 117px;
+        font-size: 14px;
+        font-weight: 500;
+        min-height: 48px;
+        border-radius: 7px;
+    }
 }
 
 
@@ -260,6 +270,9 @@
         gap: 15px;
         text-align: center;
     }
+
+
+
 
 
     #mc_embed_signup .button {

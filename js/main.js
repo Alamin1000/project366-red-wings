@@ -23,6 +23,30 @@
       $(".offcanvas-overlay").removeClass("active");
     }
   });
+
+  // owl-carousel
+  $(".clients-wrap-slider-active").owlCarousel({
+    loop: true,
+    margin: 0,
+    items: 5,
+    autoplay: true,
+    slideTransition: "linear",
+    autoplayTimeout: 2000,
+    autoplaySpeed: 2000,
+    autoplayHoverPause: false,
+    responsiveClass: true,
+    nav: false,
+    dots: false,
+    navText: [
+      '<span class="fas fa-chevron-left fa-2x"></span>',
+      '<span class="fas fa-chevron-right fa-2x"></span>',
+    ],
+    responsive: {
+      0: {},
+      600: {},
+      1000: {},
+    },
+  });
 })(jQuery);
 
 $(document).ready(function () {

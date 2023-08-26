@@ -263,9 +263,12 @@ p:last-child{
   display: flex;
   align-items: center;
 }
+.clients-wrap .owl-stage-outer {
+  overflow: visible;
+}
 .client-single {
   height: 110px;
-  width: 16.6666%;
+  /* width: 16.6666%; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -274,6 +277,7 @@ p:last-child{
 .client-single .img {
   padding: 0 10%;
   height: 100%;
+  width: auto !important;
 }
 /* ---clients-section---end */
 
@@ -587,6 +591,7 @@ p:last-child{
   border-radius: 20px;
   border: 1px solid #DAE5F7;
   background: var(--white, #FFF);
+  transition: 0.3s !important;
 }
 #mc_embed_signup .button {
   min-width: 147px !important;
