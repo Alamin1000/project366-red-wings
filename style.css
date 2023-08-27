@@ -568,6 +568,7 @@ p:last-child{
 /* ---mail-form--- */
 .mail-form {
   width: 100%;
+  position: relative;
 }
 .mail-form form {
   margin: 0 !important;
